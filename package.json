@@ -5,10 +5,10 @@
   "author": "Your Name <your.email@example.com>",
   "main": "index.js",
   "scripts": {
-    "start": "node server/index.js", /* Starts the server */
-    "client": "npm start --prefix client", /* Starts the client application */
-    "server": "nodemon server/index.js", /* Starts the server with nodemon for auto-reload */
-    "dev": "concurrently --kill-others-on-fail npm run server npm run client" /* Runs both server and client concurrently */
+    "start": "node server/index.js", // Starts the server
+    "client": "npm start --prefix client", // Starts the client application
+    "server": "nodemon server/index.js", // Starts the server with nodemon for auto-reload
+    "dev": "concurrently --kill-others-on-fail npm run server npm run client" // Runs both server and client concurrently
   },
   "dependencies": {
     "express": "^4.18.2",
